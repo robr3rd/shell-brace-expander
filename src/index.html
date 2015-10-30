@@ -1,0 +1,9 @@
+<script src="../src/ShellBraceExpander.js"></script>
+
+<script>
+	var input = prompt('Enter a Shell Brace Expansion (then check your console): '),
+		Output = new ShellBraceExpander(input),
+		expanded = Output.getExpansions();
+
+	console.log('Your expanded input is: ' + expanded);
+</script>
